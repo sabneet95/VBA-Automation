@@ -1,2 +1,1 @@
-# Excel-Automation
- Case Specific VBA Automation
+# Excel Automation VBA scripts
