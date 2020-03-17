@@ -14,7 +14,7 @@ Function Col_lett(ByVal ColumnNumber As Integer)
 Col_lett = Replace(Replace(Cells(1, ColumnNumber).Address, "1", ""), "$", "")
 End Function
 
-Sub test()
+Sub Neuro()
 
 '''''''''''''''''''''''''''''''''''Variable Declarations''''''''''''''''''''''''''''''
     Dim Initial_frames As String
