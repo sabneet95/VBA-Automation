@@ -4,7 +4,7 @@ A repository of VBA-based automation solutions for atmospheric sciences and neur
 
 ![](https://github.com/sabneet95/VBA-Automation/blob/master/vba.jpg)
 
-→ `Domain specific code! Will not work on its own but can be modified for other projects.`
+→ `Domain-specific code! Will not work on its own but can be modified for other projects.`
 
 ## Requirements
 
