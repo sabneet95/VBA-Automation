@@ -1,66 +1,39 @@
-# Reverse Engineering - MIPS
+# VBA Automation - Workflow Pipelines
 
-A repository of Python-based assemblers and disassemblers for a variety of CPU architectures.
+A repository of VBA-based automation solutions for atmospheric sciences and neuroscience.
 
 ![](https://github.com/sabneet95/Reverse-Engineering/blob/master/output.jpg)
 
-→ `Currently, the main focus is on MIPS32/64 architecture, soon ARM-64 and x86 will be added.`
+→ `Domain specific code! Will not work on its own but can be modified for other projects.`
 
 ## Requirements
 
-[Python 3.9.1 (64-bit) or above](https://www.python.org/downloads/)
-
-[MIPS Assembler and Runtime Simulator (Optional)](https://courses.missouristate.edu/KenVollmar/MARS/)
+[VBA 7 or above](https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office)
 
 ## Build Tested
 
-Visual Studio Code
-* Version: 1.52.1 (system setup)
-* Commit: ea3859d4ba2f3e577a159bc91e3074c5d85c0523
-* Electron: 9.3.5
-* Chrome: 83.0.4103.122
-* Node.js: 12.14.1
-* V8: 8.3.110.13-electron.0
+Microsoft Excel
+* Version: 16.0.13714.20000 64-bit
 * OS: Windows_NT x64 10.0.19042
 * Memory: 1981M
 * Cores: 8
 
 ## Usage
 
-1)	Open the project in **Visual Studio Code** > _predefine_ the MIPS instructions in assembler.py
+1)	Open the project in **Microsoft Excel** > under the Developer tab _run_ the VBA Macro as desired
 
-```python
+```VBA
 
-instructions = [['addi', '$v0', '$zero', '0'], ['lw', '$t9', '0', '$a0']]
-
-.
-..
-...
-
-```
-
-2)	Then, in a terminal tab, _run_ the **assembler.py**
-
-```
-    >>  assembler.py █
-```
-
-3)	Likewise, specify the instructions in **disassembler.py**
-
-```python
-
-instructions = ['00000001101011100101100000100100', '10001101010010010000000000001000']
+Function Col_lett(ByVal ColumnNumber As Integer)
+Col_lett = Replace(Replace(Cells(1, ColumnNumber).Address, "1", ""), "$", "")
+End Function
+Sub Weather()
+Dim Width As Single, Height As Single, NumWide As Long
 
 .
 ..
 ...
 
-```
-
-4)	Then, in a terminal tab, _run_ the disassembler.py
-
-```
-    >>  disassembler.py █
 ```
 
 ## Contributing
