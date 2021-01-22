@@ -2,7 +2,7 @@
 
 A repository of VBA-based automation solutions for atmospheric sciences and neuroscience.
 
-![](https://github.com/sabneet95/Reverse-Engineering/blob/master/output.jpg)
+![](https://github.com/sabneet95/VBA-Automation/blob/master/vba.jpg)
 
 → `Domain specific code! Will not work on its own but can be modified for other projects.`
 
