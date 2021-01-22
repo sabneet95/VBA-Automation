@@ -1,6 +1,6 @@
 # VBA Automation - Workflow Pipelines
 
-A repository of VBA-based automation solutions for atmospheric sciences and neuroscience.
+A repository of VBA-based automation solutions for atmospheric sciences and neurophysics.
 
 ![](https://github.com/sabneet95/VBA-Automation/blob/master/vba.jpg)
 
