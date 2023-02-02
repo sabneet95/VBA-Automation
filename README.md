@@ -1,14 +1,14 @@
-# VBA Automation - Workflow Pipelines
+# VBA Automation for Atmospheric Sciences and Neurophysics
 
-A repository of VBA-based automation solutions for atmospheric sciences and neurophysics.
+This repository contains VBA-based automation solutions designed specifically for the atmospheric sciences and neurophysics domains.
 
 ![](https://github.com/sabneet95/VBA-Automation/blob/master/vba.jpg)
 
-→ `Domain-specific code! Will not work on its own but can be modified for other projects.`
+→ `Please note that the code provided is domain-specific and may not work as-is for other projects, but it can be modified to suit your needs.`
 
 ## Requirements
 
-[VBA 7 or above](https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office)
+[VBA 7 or higher](https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office)
 
 ## Build Tested
 
@@ -18,7 +18,7 @@ Microsoft Excel
 * Memory: 1981M
 * Cores: 8
 
-## Usage
+## How to Use
 
 1)	Open the project in **Microsoft Excel** > under the Developer tab _run_ the VBA Macro as desired
 
@@ -38,10 +38,10 @@ Dim Width As Single, Height As Single, NumWide As Long
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome. If you would like to make major changes, please open an issue to discuss the proposed changes before making a pull request.
 
-Please make sure to update tests as appropriate.
+Please ensure that appropriate tests are updated when making changes.
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+This repository is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
