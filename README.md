@@ -149,7 +149,7 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+This repository is licensed under the [MIT License](https://github.com/sabneet95/VBA-Automation/blob/master/LICENSE).
 
 ---
 
